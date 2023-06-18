@@ -1,0 +1,30 @@
+.container{
+  max-width: 400px;
+  cursor: pointer;
+  color: var(--white-color);
+  transition: transform 0.2s ease-in-out;
+  &:hover{
+    transform: translateY(-6px);
+  }
+}
+
+.name{
+  font-size: var(--font-size-h4);
+  margin: 0 10px 10px;
+}
+
+.text{
+  font-size: var(--font-size-p2);
+}
+
+.previewWrapper{
+  max-height: 206px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(255, 255, 255,0.2);
+  .preview{
+    max-width: 400px;
+  }
+}
+

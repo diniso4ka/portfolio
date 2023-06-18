@@ -1,11 +1,17 @@
+import { RouteProps } from 'react-router-dom';
+
+import { ExamplePage } from '@/pages/ExamplePage';
 import { MainPage } from '@/pages/MainPage';
 
-import { getRouteMain } from '@/shared/const/router';
-import { AppRoutesProps } from '@/shared/types/router';
+import { EXAMPLE_ROUTE, MAIN_ROUTE } from '@/shared/const/router';
 
-export const routerConfig: AppRoutesProps[] = [
+export const routerConfig: RouteProps[] = [
     {
-        path: getRouteMain(),
+        path: MAIN_ROUTE,
         element: <MainPage />,
+    },
+    {
+        path: EXAMPLE_ROUTE,
+        element: <ExamplePage />,
     },
 ];

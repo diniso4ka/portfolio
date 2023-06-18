@@ -66,13 +66,6 @@ module.exports = {
         ],
         semi: ['error', 'always'],
         indent: ['error', 4],
-        'max-len': [
-            'error',
-            {
-                code: 120,
-                ignoreComments: true,
-            },
-        ],
         'react/jsx-indent': ['error', 4],
         'react/jsx-indent-props': ['error', 4],
         'react/display-name': 'off',

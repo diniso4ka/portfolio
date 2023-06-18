@@ -1,0 +1,27 @@
+
+
+.title{
+font-size: var(--font-size-h4);
+  margin-bottom: 15px;
+}
+
+.stack{
+  margin-left: 13px;
+}
+
+.stackItem{
+  margin: 0 0 7px 0;
+  font-size: var(--font-size-p2);
+  position: relative;
+
+  &:after{
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--white-color);
+    left: -10px;
+    top: 40%;
+  }
+}
