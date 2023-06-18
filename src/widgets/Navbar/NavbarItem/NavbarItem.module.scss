@@ -1,0 +1,27 @@
+.container{
+  padding: 4px 0;
+  cursor: pointer;
+  position: relative;
+  color:  var(--text-primary-color);
+  font-size: var(--font-size-p1);
+
+  &:after{
+    content: '';
+    width: 0;
+    height: 1px;
+    background: rgb(66,139,76);
+    background: linear-gradient(90deg, rgba(66,139,76,1) 17%, rgba(9,111,121,1) 51%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition:  0.3s ease;
+  }
+
+  &:hover{
+    transform: scale(1.04);
+    &:after{
+      width: 100%;
+    }
+  }
+}
+
