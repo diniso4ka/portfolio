@@ -8,3 +8,11 @@ body {
     color: var(--white-color);
     background-color: var(--bg-primary-color);
 }
+
+.DEVELOPMENT{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: red;
+    font-size: var(--font-size-h1);
+}
