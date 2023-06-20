@@ -1,0 +1,19 @@
+.container{
+  overflow: hidden;
+  height: 686px;
+}
+.slider{
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.slideWrapper,
+.slideImage{
+  max-width: calc(var(--max-width-container));
+}
+
+.clear{
+  min-width: 18.5vw;
+}

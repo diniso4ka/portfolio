@@ -3,7 +3,7 @@ import path from 'path';
 import webpack, { DefinePlugin } from 'webpack';
 
 import { buildCssLoader } from '../build/loaders/buildCssLoader';
-import { BuildPath } from '../build/types/config';
+import { IBuildPath } from '../build/types/config';
 
 const config: StorybookConfig = {
     stories: ['../../src/**/*.stories.@(js|jsx|ts|tsx)'],
@@ -20,7 +20,7 @@ const config: StorybookConfig = {
         autodocs: 'tag',
     },
     webpackFinal: async (config: webpack.Configuration) => {
-        const paths: BuildPath = {
+        const paths: IBuildPath = {
             build: '',
             html: '',
             entry: '',

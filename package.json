@@ -9,7 +9,7 @@
     "scripts": {
         "start": "webpack serve --env port=3000",
         "build:dev": "webpack --env mode=development",
-        "build:prod": "webpack --env mode=production apiUrl=https://betcoin-backend.vercel.app/api",
+        "build:prod": "webpack --env mode=production",
         "prettier": "npx prettier --write **/*.{ts,tsx,json}",
         "lint:ts": "eslint \"**/*.{ts,tsx}\"",
         "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
@@ -39,7 +39,8 @@
         "react-dom": "^18.2.0",
         "react-i18next": "^12.2.0",
         "react-redux": "^8.0.5",
-        "react-router-dom": "^6.2.1"
+        "react-router-dom": "^6.2.1",
+        "swiper": "^9.4.1"
     },
     "devDependencies": {
         "@babel/core": "^7.21.4",
