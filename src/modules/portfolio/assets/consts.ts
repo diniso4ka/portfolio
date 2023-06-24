@@ -1,7 +1,7 @@
-import crmSystemPreview from './images/CrmSystem/crmSystemPreview.jpg';
-import larosPreview from './images/Laros/larosPreview.jpg';
-import mixturaPreview from './images/mixtura/mixturaPreview.jpg';
-import solbetPreview from './images/solbet/solbetPreview.jpg';
+import crmSystemPreview from '../../../../public/assets/CrmSystem/crmSystemPreview.jpg';
+import larosPreview from '../../../../public/assets/Laros/larosPreview.jpg';
+import mixturaPreview from '../../../../public/assets/mixtura/mixturaPreview.jpg';
+import solbetPreview from '../../../../public/assets/Solbet/solbetPreview.jpg';
 
 import { IExampleOfWorkItem } from '@/modules/portfolio/types';
 
